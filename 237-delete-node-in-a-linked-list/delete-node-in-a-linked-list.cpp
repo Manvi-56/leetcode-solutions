@@ -9,8 +9,8 @@
 class Solution {
 public:
     void deleteNode(ListNode* node) {
-    node->val=node->next->val;
-    node->next=node->next->next;
+    node->val=node->next->val;//swaping the node value
+    node->next=node->next->next;// as we acesss of previou vale now we can delete it 
     }
         
 
